@@ -17,5 +17,12 @@
     Tunneling
     Software Defined Wide Area Network (SD-WAN)
 
-
-    
+## Device Placement
+    Is the thoghtful positioning of hardware positioning of hardware devices within a network
+### Considerations
+        Security Requirments
+        Network Efficiency
+        Accessability
+### Examples
+        Place firewalls close to the network perimeter to prevent unauthorized access
+        Position sensitive data servers in secure locations to minimize exposure to threats
