@@ -291,6 +291,791 @@ data classifications and types
 ## chapter 13
 
 **Topics**
+> - High Availability
+> - Site Considerations
+> - Platform Diversity
+> - Multi-Cloud System
+> - Continuity of Operations
+> - Capacity Planning
+> - Testing
+> - Backups
+> - Power
+
+
+### High Availability ( H.A )
+> ensures that a system or application remains accessible and operational over an extended period
+
+> - Redundant hardware\
+> Multiple instances of critical hardware components eliminate single points of failure
+
+>- Automated backups\
+> Regularly scheduled backups are automated to ensure that the most recent data is always available for recovery
+
+>- Failover mechanisms
+> Configuration allows the system or network to switch to a standby system or network automatically if the primary one fails
+
+### Cloud Environments
+> In cloud computing, availability is often determined by the storage class
+>- Different availability metrics influence cost
+>- Storage class selection should be based on a thorough risk analysis
+>- Recommendation: Select applications with greater storage availability for mission-critical uses
+
+### Site Considerations
+>- Hot site\
+>  A near duplicate of the organization’s original site that can be up and running within minutes
+
+>- Warm site\
+> Contains computers, phones, and servers but may require configuration before use
+
+>- Cold site\
+> Provides basic office infrastructure, but extensive computer configuration and data restoration would be needed before use
+
+>- Geographically distant site\
+>  A computing environment, such as a data center, located at least 50 miles from the main compute campus data center
+
+### Platform Diversity
+> is the implementation of varied hardware or software platforms within an organization’s IT environment
+
+> Reduces systemic risks associated with a single point of failure
+
+> Benefits
+> - Resilience: Increased ability to withstand security incidents and technical failures\
+> - Enhanced recovery: Improved capacity to recover from incidents due to diversified platforms
+
+### Multi-Cloud System
+> involves using multiple cloud service platforms (e.g., AWS, Azure, Google Cloud) to fulfill diverse computational and storage needs
+
+> Reduces dependency on a single cloud service provider
+
+> Benefits
+>- Risk mitigation
+>- High availability
+>- Robust disaster recovery
+
+### Continuity of Operations
+> is a federal initiative encouraging organizations to plan for the continuation of critical operations under various emergency  circumstances
+
+> Procedures in a continuity plan
+>- Alerting, activating, notifying, and deploying employees
+>- Identifying critical business functions
+>- Establishing an alternate facility or work-from-home process
+>- Creating a roster of personnel with authority and knowledge of business operational functions
+ 
+### Capacity Planning
+> is the process of determining future resource requirements such as people, technology, and infrastructure
+
+> Considerations\
+> - People: Staffing requirements to maintain and operate systems efficiently
+> - Technology: Computational power, software, and hardware needed to meet future demands
+> - Infrastructure: Physical or virtual resources to  support technology and personnel
+
+### Testing
+> Tabletop Exercises
+> - Validate and improve incident response plans (IRPs) through real-life scenario simulations
+> - Gauge team performance against predefined questions and scenarios
+
+> Failover Testing
+> - Involves switching operational functions from primary to secondary systems to assess continuity during system failures
+> - Tests redundancy mechanisms and contingency plans
+
+> Simulations
+> - Provides structured exercises to practice incident response procedures in simulated realistic scenarios
+> - Helps identify deficiencies, improve response capabilities, and validate readiness
+
+> Parallel Processing                  
+> - Runs same tasks concurrently in primary and secondary systems
+> - Verifies backup system's operational reliability and accuracy
+
+### Backups
+> A backup is a duplicate copy of data and system configurations stored separately from the original.
+
+> Types of backups
+>- Full backup
+>- Incremental backup
+>- Differential backup
+>- Mirror backup
+>- Continuous data protection (CDP)
+>- Cloud backup
+>- Virtual backup
+>- Bare-metal backup
+
+### Power
+> Power management involves provisioning, controlling, and efficiently utilizing electricity to maintain uninterrupted facility operation.
+
+> Uninterruptible Power Supply (UPS) devices offer emergency power during main power failures by storing energy in batteries or supercapacitors.
+
+> Generators supply power during complete power loss or in areas without standard electrical service, converting mechanical or chemical energy into electrical energy.
+
+**Important**
+
+## Chapter 13
+**Topics**
+>- Secure Baselines
+>- Hardening Targets
+>- Wireless Devices
+>- Mobile Solutions
+>- Connection Methods
+>- Wireless Security Settings
+>- Application Security
+>- Sandboxing
+>- Monitoring
+
+### Secure Baselines
+> Secure baselines are standardized sets of minimum configurations and security controls for systems and software.
+
+> Asset tagging
+> - Assigning unique identifiers to each asset for easier tracking
+
+> Version control
+> - Documenting all software versions used by the organization; helps identify outdated or unsupported versions that may pose security risks
+
+> Scheduled scans
+> - Scheduling regular vulnerability scans to identify any new weaknesses  
+
+> Manual review
+> - A human reviews data, logs, and systems to help prioritize vulnerabilities based on actual organizational risk. Human judgment and intuition can identify issues that automated tools miss. 
+
+> Disable unnecessary services
+> - Turn off services and features not required for the system’s primary function.
+
+> User access control
+> - Limit user permissions to what is necessary for their roles.
+
+> Change log
+> - Maintain a record of any changes made to the baseline, who made them, and why.
+
+> Audit trail
+> - Ensure that documentation is in a format that can be easily audited for compliance purposes.
+
+> Validation testing
+> - Confirm that the baseline settings do not disrupt necessary functions.
+
+> Rollback plan
+> - Have a plan to revert changes in the event of unforeseen issues during deployment.
+
+> Patch management
+> - Regularly update software and systems to patch known vulnerabilities.
+
+> Review and update
+> - Periodically review the secure baseline to ensure that it aligns with current best practices in cybersecurity.
+
+### Hardening targets
+> the process of strengthening the security defenses of computing resources to resist attacks.
+
+> Common hardening techniques
+>- Firmware updates
+>- Network segmentation
+>- VLANs
+>- Air-gapping
+>- Disabling unnecessary features
+>- Real-time monitoring
+>- Data encryption
+>- Changing default passwords
+>- Ensuring network-level security
+
+### Wireless devices
+> Wireless devices operate without physical wired connections. They use methods such as Wi-Fi, Bluetooth, and cellular networks to communicate.
+
+> Site surveys
+> - assess the current wireless environment and plan for Wi-Fi network optimization.
+
+> Heat maps
+>- visualize wireless activity to determine optimal access point placement for coverage and performance.
+
+### Mobile solutions
+> Mobile device management (MDM) is crucial for successful implementation of bring your own device (BYOD) policies.
+
+> BYOD policies raise legal concerns regarding data ownership, privacy rights, and employee misconduct.
+
+> Ensure clear separation of organizational and personal information.
+
+> Encryption, regular software updates, and password complexity are essential for mitigating mobile device security risks.
+
+### Connection Methods
+> Bluetooth
+> -  is susceptible to attacks like Bluejacking and Bluesnarfing.
+
+> Wi-Fi
+> - is vulnerable to various exploits. Example: Firmware flaws that lead to buffer overflow
+
+> Cellular connections
+> - including 2G, 3G, 4G, and 5G all raise security concerns. Using newer devices is generally best.
+
+> GPS and geolocation technologies
+> - raise privacy and security concerns.
+
+> Satellite communications (SATCOM)
+> - require firmware updates to address vulnerabilities and prevent exploits.
+
+> Infrared connections and wireless USB receivers
+> - often overlooked in security reviews. 
+
+### Wireless Security Settings
+> WPA3 (Wi-Fi Protected Access 3)
+> - uses Simultaneous Authentication of Equals (SAE) to replace the vulnerable preshared key (PSK) system.
+
+> RADIUS federation
+> - enables secure communication among multiple RADIUS servers.
+
+> Cryptographic protocols
+> -  WPA3-Personal and WPA3-Enterprise offer robust encryption methods like AES-CCMP and HMAC-SHA for data protection.
+
+> Authentication protocols
+> -  LDAP, Kerberos, and 802.1X are authentication methods tailored to various environments.
+
+### Application Security
+> Application security refers to the security measures implemented at the application level.
+
+> Input validation
+> - ensures data integrity by verifying the type and content of user or application input, preventing vulnerabilities like XSS and SQLi.
+
+> Secure cookies
+> - implement the secure attribute in HTTP response cookies to prevent unauthorized access and transmission of sensitive information.
+
+> Static code analysis uses SAST tools to scan source code for vulnerabilities early in the development lifecycle.
+>- Provides real-time feedback to developers 
+>- Enables prompt issue resolution
+
+> Code signing digitally signs executables and scripts to verify authenticity and integrity.
+>- Ensures software has not been altered or corrupted 
+>- Prevents malicious tampering during transmission
+
+### Sandboxing
+
+> Sandboxing creates a confined execution environment for running untrusted or suspicious code safely.
+>- Adds an additional layer of security
+>- Reduces the risk of malware infection via email attachments while maintaining workflow efficiency for employees
+
+### Monitoring
+> is crucial for proactive cybersecurity, providing continuous surveillance of systems, networks, and applications.
+
+> Involves detecting, logging, and responding to specific activities or conditions to identify current issues and anticipate future vulnerabilities
+
+> Can flag unusual account activities such as sudden large withdrawals, frequent international transactions, or simultaneous logins from multiple locations
+
+**Important**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
