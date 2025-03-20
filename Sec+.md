@@ -408,7 +408,7 @@ data classifications and types
 
 **Important**
 
-## Chapter 13
+## Chapter 14
 **Topics**
 >- Secure Baselines
 >- Hardening Targets
