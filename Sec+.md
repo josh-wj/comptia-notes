@@ -1,7 +1,7 @@
 # chapter_11
 
  ## Infrastructer conditions
-    Device placement/
+    Device placement
     Security Zones/
     Attack Surface/
     Connecrivity/
