@@ -153,14 +153,14 @@ Remember connectivity when desighning new systems with other departments
 > - Provides secure and seamless access to resources regardless of user location
 
 ### **important/homework** 
-fail open/closed
-load balancing 
-802.1X
-EAP/PEAP
-NGFW, TLS inspection
-VPN L2TP IPSEC
-SD-WAN
-SAEC
+>- fail open/closed
+>- load balancing 
+>- 802.1X
+>- EAP/PEAP
+>- NGFW, TLS inspection
+>- VPN L2TP IPSEC
+>- SD-WAN
+>- SAEC
 
 
 
@@ -281,12 +281,12 @@ Methods
 > - Principle of least privilege: Ensures that users have only the minimum access necessary to perform their tasks
 
 ### **important/homework**
-regulated data
-intellectual property
-data states
-obsfucation
-masking
-data classifications and types
+>- regulated data
+>- intellectual property
+>- data states
+>- obsfucation
+>- masking
+>- data classifications and types
 
 ## chapter 13
 
