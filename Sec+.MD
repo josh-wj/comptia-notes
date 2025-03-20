@@ -1,7 +1,8 @@
-*chapter_11
+#chapter_11
 
   Infrastructer conditions
-    -Device placement
+    
+    Device placement
 
     Security Zones
 
@@ -30,4 +31,6 @@
     Tunneling
 
     Software Defined Wide Area Network (SD-WAN)
+
+
     
