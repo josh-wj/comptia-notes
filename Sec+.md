@@ -152,7 +152,7 @@ Remember connectivity when desighning new systems with other departments
 > - Integrates network and security services into a unified platform, simplifying management and ensuring secure access 
 > - Provides secure and seamless access to resources regardless of user location
 
-**important/homework** 
+### **important/homework** 
 fail open/closed
 load balancing 
 802.1X
@@ -280,7 +280,7 @@ Methods
 > - Attribute-based access control (ABAC): Access is granted based on attributes like location, time, or device type.
 > - Principle of least privilege: Ensures that users have only the minimum access necessary to perform their tasks
 
-**importand/homework**
+### **importand/homework**
 regulated data
 intellectual property
 data states
@@ -406,7 +406,7 @@ data classifications and types
 
 > Generators supply power during complete power loss or in areas without standard electrical service, converting mechanical or chemical energy into electrical energy.
 
-**Important/homework**
+### **Important/homework**
 
 ## Chapter 14
 **Topics**
@@ -553,7 +553,7 @@ data classifications and types
 
 > Can flag unusual account activities such as sudden large withdrawals, frequent international transactions, or simultaneous logins from multiple locations
 
-**Important/homework**
+### **Important/homework**
 
 
 
