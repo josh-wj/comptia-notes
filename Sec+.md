@@ -280,7 +280,17 @@ Methods
 > - Attribute-based access control (ABAC): Access is granted based on attributes like location, time, or device type.
 > - Principle of least privilege: Ensures that users have only the minimum access necessary to perform their tasks
 
+**importand/homework**
+regulated data
+intellectual property
+data states
+obsfucation
+masking
+data classifications and types
 
+## chapter 13
+
+**Topics**
 
 
 
