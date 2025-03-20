@@ -1,6 +1,6 @@
 # chapter_11
 
- ## Infrastructer conditions
+## Infrastructer conditions
     Device placement
     Security Zones
     Attack Surface
@@ -11,7 +11,7 @@
     Network Applications
     Port Security
     Firewall Types
- ## Secure Communications/Access
+## Secure Communications/Access
     Virtual Private network (VPN)
     Remote Access
     Tunneling
