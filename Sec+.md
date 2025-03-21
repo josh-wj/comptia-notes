@@ -501,14 +501,24 @@ uninterruptible power supply ( UPS )
 
 > VDI: Virtual Desktop Infrastructure  
 
-
 > Ensure clear separation of organizational and personal information.
+
+> Ensure ability to remotely wipe a remote device
 
 > Encryption, regular software updates, and password complexity are essential for mitigating mobile device security risks.
 
 ### Connection Methods
 > Bluetooth
 > -  is susceptible to attacks like Bluejacking and Bluesnarfing.
+
+> Bluejacking
+> - 
+
+> Bluesnarfing
+> -  
+
+> Blue bugging
+> -
 
 > Wi-Fi
 > - is vulnerable to various exploits. Example: Firmware flaws that lead to buffer overflow
@@ -536,7 +546,7 @@ uninterruptible power supply ( UPS )
 > -  WPA3-Personal and WPA3-Enterprise offer robust encryption methods like AES-CCMP and HMAC-SHA for data protection.
 
 > Authentication protocols
-> -  LDAP, Kerberos, and 802.1X are authentication methods tailored to various environments.
+> -  LDAP, Kerberos ( ticket based method ), and 802.1X are authentication methods tailored to various environments.
 
 ### Application Security
 > Application security refers to the security measures implemented at the application level.
