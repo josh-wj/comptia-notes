@@ -1,4 +1,4 @@
-## chapter_11
+   ## chapter_11
 
 ### Infrastructer conditions
    - Device placement
@@ -774,7 +774,10 @@ uninterruptible power supply ( UPS )
 ### System/Process Audit 
 > Comprehensive examination and assessment of an organization's processes, controls, and systems
 
-> May use specialized tools such as Nessus or Wireshark to examine network traffic and configurations
+> May use specialized tools such as Nessus, Wireshark, netflow to examine network traffic and configurations
+
+>Common Tools 
+
 
 ### Analysis
 >Transforms raw data about vulnerabilities and threats into comprehensive insights
@@ -842,7 +845,12 @@ uninterruptible power supply ( UPS )
 >- Information-sharing organizations
 
 ### Important/Homework
+static/dynamic analysis
 
+package monitoring
+fallse positives/negatives
+cvss 1-10 least to most concerning
+validation and remediation
 ## Chapter 17
 ### Topics
 > Monitoring and Computing Resources
@@ -904,24 +912,126 @@ uninterruptible power supply ( UPS )
 >- OpenVAS
 >- Qualys
 
+### Reporting
+> translates technical cybersecurity information for stakeholders.
 
+> Essential for daily decision-making, resource allocation, and strategic planning
 
+> When creating reports, consider your audience (e.g., IT or executives). 
 
+> Technical reports
+>- give detailed breakdowns of vulnerabilities, affected systems, and recommended actions for IT.
 
+> Executive reports
+>- focus on potential business impacts and make recommendations for strategic risk mitigation.
 
+### Archiving
+> is securely storing historical data for long-term retrieval and analysis.
 
+> Digital version of a well-organized filing cabinet
+>- Quick access to documents when needed for work and auditing 
 
+> Considerations
+>- What data to store
+>- Storage duration
+>- Data storage security
 
+### Alert Response and Remediation/Validation
+> involves validating whether an alert indicates a genuine security threat or a false positive, and then remediating if needed. 
 
+> Quarantining
+>- Isolating suspicious files or problematic system activities in a secure environment  
 
+> Alert tuning
+>- Continually refining alerts to have a robust and response system
 
+### Security Content Automation Protocol (SCAP)
+> is a standardized solution for security automation. It helps implement best practices. For example, it ensures that patches have been applied. 
 
+> SCAP Specifications
+>- Languages: OVAL, XCCDF, OCIL, AI, ARF
+>- Enumerations: CVE, CPE, CCE
+>- Metrics: CVSS, CCSS
 
+### Benchmarks
+> are standard points of reference for assessing a system’s security level. Referring to such guidelines can be helpful with:
+>- Setting a baseline security posture  
+>- Maintaining consistency across an organization’s systems
+>- Identifying and tracking measurements for improvement
+>- Making security comparisons with industry peers and competitors
 
+### Agents/Agentless
+> Agent-Based Solution
+>- Software agent is installed on each monitored system
+>- Sends data to a centralized management system
+>- Offers in-depth data and control, but may use extensive resources and be complex to deploy 
 
+> Agentless Solution
+>- Monitors and manages systems without requiring software agents on each system
+>- Uses existing protocols for remote tasks
+>- Simple to implement and has a light footprint
+>- Provides less insight and control 
 
+### Security Information and Event Management (SIEM)
+> An SIEM system is a specialized device or software for security monitoring. It collects, correlates, and analyzes logs from multiple systems.
 
+> SIEM functions
+>- Log collection
+>- Log normalization
+>- Log aggregation
+>- Log correlation
+>- Reporting
 
+### NetFlow
+> is a protocol that collects and monitors network traffic data.
+
+> Provides various traffic insights
+>- Source
+>- Destination
+>- Volume 
+>- Paths
+
+> Essential for traffic profiling and anomaly detection
+
+### Antivirus software
+> prevents, detects, and removes malware.
+
+> Also known as anti-malware
+
+> Viruses and Trojans can damage networks and are costly to overcome; ransomware alone has cost victims billions of dollars.
+
+> Every endpoint device, including workstations, tablets, and phones, should have antivirus software to ensure comprehensive protection
+
+### Data loss prevention (DLP)
+> is a comprehensive data protection strategy that uses tools to detect potential data breaches and prevent exfiltration.
+
+> Monitors, detects, and blocks data in use, in motion, and at rest
+
+> Enforces policies defined by regulatory bodies
+>- HIPPA
+>- PCI DCS
+>- GDPR
+
+### Simple Network Management Protocol (SNMP) Traps
+> SNMPv3 is a popular protocol for managing and monitoring networks. SNMP traps are alerts sent from SNMP-enabled devices when they have status changes. This facilitates speedy response. 
+
+> Optional SNMPv3 features
+>- Authentication: Verifies the legitimacy of trap sources, preventing unauthorized devices from sending false alerts
+>- Encryption: Offers encryption to maintain the confidentiality of trap content
+
+### Vulnerability scanners
+> automate the identification of weaknesses in systems and networks.
+
+> Work as digital sentries by constantly monitoring  
+
+> Stages of vulnerability scanning
+>- Pre-assessment
+>- Scanning
+>- Post-scan analysis
+>- Remediation and verification
+>- Continuous monitoring
+
+### Important/Homework
 
 
 
