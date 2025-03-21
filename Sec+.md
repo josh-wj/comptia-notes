@@ -1032,11 +1032,48 @@ validation and remediation
 >- Continuous monitoring
 
 ### Important/Homework
+>- log aggregattion 
+>- scap
+>- first 3 charachteristics of dlp
+>- snmp trap
 
+## Chapter 18
+### Topics
+>- Firewall
+>- IDS/IPS
+>- Web Filter
+>- Operating System Security
+>- Implementation of Secure Protocols
+>- DNS Filtering
+>- Email Security
+>- File Integrity Monitoring
+>- DLP
+>- Network Access Control (NAC)
+>- Endpoint Detection and Response (EDR)/Extended Detection and Response (XDR)
+>- User Behavior Analytics
 
+### firewall
+> is a network security device or software that monitors incoming and outgoing network traffic.
 
+> Firewall rules control the flow of data packets.
 
+> Access control lists (ACLs) govern how traffic flows through the network.
 
+> Ports are virtual docks where network services can receive data.
+
+> Protocols are rules and conventions governing data transmission and acceptance.
+
+> A screened subnet is a segment that separates the internal network from an external network (e.g., the Internet).
+
+### IDS/IPS
+> Intrusion detection systems (IDSs)
+>- monitor and issue alerts about suspicious activities.
+
+> Intrusion protection systems (IPSs)
+>- are proactive; they block known or potential threats.
+
+> These systems use predefined signatures (such as specific strings of data) to identify threats. However, known signatures could become irrelevant as new variants of malware emerge.
+> Trends identified in analyses of logs can indicate the presence of new vulnerabilities.
 
 
 
