@@ -563,15 +563,56 @@ uninterruptible power supply ( UPS )
 
 ### **Important/homework**
 
+## Chapter 15            
 
+### Topics
+>- Acquisition/Procurement Process
+>- Assignment/Accounting
+>- Monitoring/Asset Tracking 
+>- Inventory
+>- Enumeration
+>- Disposal/Decommissioning 
+>- Sanitization
+>- Destruction
+>- Certification
+>- Data Retention
 
+### Acquisition/Procurement Process
+> Acquiring hardware, software, and data assets in accordance with standards for security and compliance
 
+> Requires collaboration across departments  
 
+> Elements of a procurement review
+>- Vendor assessment
+>- Product security standards
+>- Product licensing and support
+>- Cost to keep the asset secure
 
+### Third-Party Risk Management (TRPM)
+> involves evaluating and managing risks associated with outsourcing services and buying products from third-party vendors. 
 
+> Perform due diligence before choosing third parties.
+>- Security policies
+>- Track records
+>- Compliance with industry standards  
 
+### Assignment/Accounting
+> Establishes accountability and responsibility for each asset (hardware, software, or data)
 
+> Ownership
+>- Designates individuals or departments responsible for assets from acquisition to decommissioning
 
+> Classification
+>- Tags assets according to sensitivity and importance; sets the security level
+
+### Monitoring/Asset Tracking
+> Provides ongoing knowledge of asset location, status, and condition
+
+> Inventory:
+>- Detailed record of all organizational assets
+
+> Enumeration:
+>- A map of inventoried assets’ relationships and dependencies
 
 
 
