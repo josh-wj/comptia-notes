@@ -407,6 +407,13 @@ Methods
 > Generators supply power during complete power loss or in areas without standard electrical service, converting mechanical or chemical energy into electrical energy.
 
 ### **Important/homework**
+platform diversity
+testing
+on/offsite backups
+power managment
+uninterruptible power supply ( UPS )
+
+
 
 ## Chapter 14
 **Topics**
@@ -430,7 +437,8 @@ Methods
 > - Documenting all software versions used by the organization; helps identify outdated or unsupported versions that may pose security risks
 
 > Scheduled scans
-> - Scheduling regular vulnerability scans to identify any new weaknesses  
+> - Scheduling regular vulnerability scans to identify any new weaknesses
+   > - should also run random scans
 
 > Manual review
 > - A human reviews data, logs, and systems to help prioritize vulnerabilities based on actual organizational risk. Human judgment and intuition can identify issues that automated tools miss. 
