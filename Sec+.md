@@ -491,9 +491,16 @@ uninterruptible power supply ( UPS )
 >- visualize wireless activity to determine optimal access point placement for coverage and performance.
 
 ### Mobile solutions
-> Mobile device management (MDM) is crucial for successful implementation of bring your own device (BYOD) policies.
+> Mobile device management (MDM) is crucial for successful implementation of Bring Your Own Device (BYOD) policies.
 
 > BYOD policies raise legal concerns regarding data ownership, privacy rights, and employee misconduct.
+
+> COPE: Corporate owned personnlly enabled
+
+> CYOP: Choose Your Own Device
+
+> VDI: Virtual Desktop Infrastructure  
+
 
 > Ensure clear separation of organizational and personal information.
 
@@ -614,14 +621,60 @@ uninterruptible power supply ( UPS )
 > Enumeration:
 >- A map of inventoried assets’ relationships and dependencies
 
+### Disposal/Decommissioning
+> Appropriately disposing of hardware, software, or data assets at the end of their useful tenure
 
+> Assets may contain sensitive information 
 
+> Industries have strict regulations (e.g., HIPAA, SOX) mandating specific disposal procedures
 
+> Electronic waste can be hazardous
 
+### Sanitization
+> Removing data from a storage device to prevent recovery, typically by overwriting existing data with random information
 
+> Crucial during decommissioning to ensure no residual data is accessible
+> Different levels of sanitization  
+>- For highly sensitive data, multiple passes of sanitization may be used in combination with physical destruction
 
+### Destruction
+> involves physically disassembling or obliterating hardware assets.
 
+> Shredding
+>- Shreds devices into small fragments
 
+> Degaussing
+>- Applies a magnetic field to disrupt data
+
+> Incineration 
+>- Burns hardware in a controlled environment
+
+> Crushing
+>- Uses a hydraulic press to deform the device
+
+> Drilling
+>- Drills holes through hard drive platters 
+
+> Acid bath
+>- Immerses asset in a corrosive liquid to dissolve parts
+
+### Certification
+> Documentation and validation of the disposal and decommissioning process
+
+> Ensures compliance with company policy and relevant laws or regulations
+
+> Certificate of destruction serves as a legally binding document confirming secure and responsible disposal of assets
+
+### Data Retention
+> Keeping specific types of information for a designated period
+
+> Mandated by company policy or regulations
+
+> Data must remain secure and accessible only to authorized personnel during the retention period.
+
+> Upon expiration of the retention period, files should be sanitized or destroyed according to company and legal guidelines
+
+### Iportant/Homework
 
 
 
