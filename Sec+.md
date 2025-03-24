@@ -1075,41 +1075,190 @@ validation and remediation
 > These systems use predefined signatures (such as specific strings of data) to identify threats. However, known signatures could become irrelevant as new variants of malware emerge.
 > Trends identified in analyses of logs can indicate the presence of new vulnerabilities.
 
+### Web filter
+> controls access to websites or specific web content based on predefined criteria.
 
+> Agent-based web filtering
+>- deploys software directly onto individual user devices. 
 
+> A centralized proxy
+>- can serve as an intermediary between user devices and the Internet.
 
+> Reputation-based filtering
+>- blocks or allows websites based on their histories
 
+### Operating system security 
+> is the first line of defense against unauthorized access and malicious attacks.
 
+> A group policy
+>- is created by system administrators to establish detailed rules (policies) for OS and application behavior. 
 
+> SELinux (Security-Enhanced Linux) 
+>- uses mandatory access controls to restrict the actions of users and system processes
 
+### implementation of secure protocols 
+> refers to creating encrypted pathways for communication.
 
+> Protocol selection:
+>- Choosing the appropriate communication standard for data exchange (e.g., HTTPS)
 
+> Port selection:
+>- Choosing specific entry and exit points (ports) in the network for data  
 
+> Transport method selection:
+>- Choosing a method of securely transporting data packets across the network
 
+### DNS filtering
+> is the practice of blocking access to specific websites, web pages, or IP addresses.
 
+> Crucial for preventing access to malicious or inappropriate sites
 
+> Users might attempt to bypass with VPNs or other methods
 
+### Email security
+> involves measures used to secure the access and content of email accounts or services.
 
+> Domain-Based Message Authentication, Reporting and Conformance (DMARC)
+>- helps receivers verify the authenticity of emails from specific domains 
 
+> DMARC process
+>- SPF check
+>- DKIM check
+>- DMARC policy retrieval
+>- Policy enforcement
+>- Reporting
 
+### File integrity monitoring 
+> involves the regular checking of files for changes or alterations.
 
+> Alerts administrators to the unauthorized access or modification of files
 
+> False positives are a challenge; many authorized changes could be flagged as suspicious
 
+### Data Loss Prevention(DLP)
+> is a comprehensive approach to preventing users from sending sensitive or critical information outside the corporate network.
 
+> Describes software products that let network administrators control data access and transfer
 
+> Alerts administrators to unauthorized data transfer attempts
 
+> Aids in incident response
 
+### Network Access Control (NAC)
+> is a method to enforce policy-driven security solutions at the network entry level.
 
+> Checks if devices comply with predefined security rules before granting access to the network
 
+> Drawbacks
+>- Adds complexity to network administration  
+>- Can be circumvented, compromising network security
 
+### Endpoint Detection and Response (EDR)/ Extended Detection and Response (XDR)
 
+> (EDR) systems
+>- Monitor endpoints such as desktop computers, laptops, and mobile devices
+>- Detect and respond to signs of malicious activities
 
+> (XDR) systems
+>- Take a holistic view of network security, correlating data across various channels and layers like email, cloud, and network traffic
+>- Identify complex, multi-stage attacks that may evade EDR systems
 
+### User behavior analytics 
+> use machine learning algorithms to track, collect, and assess user behavior on a network.
 
+> Analytics help IT detect unusual activity that could indicate security threats, such as sudden changes in file access patterns.
 
+> Alert tuning is important to avoid excessive false positives
 
+## Chapter 19
+### Topics
+>- Provisioning/De-provisioning User Accounts 
+>- Permission Assignments and Implications
+>- Identity Proofing
+>- Federation
+>- Single Sign-On (SSO)
+>- Interoperability
+>- Attestation
+>- Access Controls
+>- Multifactor Authentication (MFA)
+>- Password Concepts
+>- Privileged Access Management Tools
 
+### Provisioning/De-provisioning User Accounts
 
+> Provisioning
+>- Setting up a user account with necessary permissions and access settings  
+
+> De-provisioning
+>- Disabling or removing permissions and settings from a user account 
+
+> Well-managed provisioning and de-provisioning are crucial for ensuring users always have appropriate access
+
+### Permission Assignments and Implications
+> Permission assignment
+>- Granting specific levels of access or activities (e.g., read, edit, delete) to users, groups, or system processes  
+
+> Types of permission assignments
+>- User-level  
+>- Group-level  
+>- Role-based  
+>- Resource-based
+
+### Identity proofing 
+> is the process of verifying a user's or system's identity within an organization.
+
+> Involves multiple levels of authentication ranging from passwords to biometric data
+
+> Extends beyond initial authentication; includes periodic re-authentication or session time-outs
+
+### Federation
+> One system authenticates users and sends their authentication information to other systems.
+
+### Single sign-on 
+> enables one set of credentials for access to multiple services or applications.
+
+> Minimizes the number of times a user needs to authenticate after initial login
+
+> SSO protocols
+>- LDAP (Lightweight Directory Access Protocol)  
+>- OAuth (Open Authorization)  
+>- SAML (Security Assertion Markup Language)
+
+### Interoperability 
+> is the ability of different systems to work together. It’s crucial for identity and access management (IAM) systems. 
+
+> IAM systems need to integrate seamlessly with various databases, applications, and authentication protocols. Lack of integration interferes with needs for access and auditing. 
+> Collaboration with external partners requires secure cross-boundary authentication and authorization.
+> Interoperable IAM systems can adapt to new technologies and compliance requirements without overhauling existing infrastructure
+
+### Attestation 
+> provides evidence or proof, allowing one program or system to authenticate itself to another.
+
+> Remote attestation enables a system to make reliable statements about the software it's running to another system, which can make authorization decisions based on that information.
+
+> A TPM (Trusted Platform Model) quote operation verifies the contents of a TPM chip's platform configuration registers (PCRs) during provisioning.
+
+> Methods of attestation may be vulnerable to replay attacks, masquerading, and other cyberthreats.
+
+### Access controls 
+> organize and manage admission to physical areas and computer systems.
+
+> Role-based access control (RBAC)
+>- is controlled by the system, not the resource owner. When users are assigned a role, they get access to its resources.
+
+> Rule-based access control
+>-  is also known as label-based access control. Example of a rule governing access: During certain hours each day, access is only permitted to specific IP addresses. 
+
+> Mandatory access control (MAC)
+>-  is the strictest control. It’s set by the system and uses security classifications for data
+
+> Discretionary access control (DAC)
+>- is generally determined by the owner. 
+
+> Attribute-based access control (ABAC)
+>- is dynamic and uses context. It can combine various user, group, and resource attributes to determine whether access should be granted.
+
+> Least privilege means the user only has the access required for their job.
 
 
 
