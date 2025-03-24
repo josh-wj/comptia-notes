@@ -1224,7 +1224,7 @@ validation and remediation
 
 > SSO protocols
 >- LDAP (Lightweight Directory Access Protocol)  
->- OAuth (Open Authorization)  
+>- OAuth (Open Authorization) <- uses creds ( OpenID runs on top in modern devices ) <- uses tokens
 >- SAML (Security Assertion Markup Language)
 
 ### Interoperability 
@@ -1271,9 +1271,9 @@ validation and remediation
 >- A subset of MFA in which two factors are required to authenticate
 
 > Factor categories
->- Something you know
->- Something you have
->- Something you are
+>- Something you know, password, pin, etc
+>- Something you have, smart card, OTP token
+>- Something you are, Biometrics                                                          
 
 > **Biometrics** (distinctive body measurements) and **security keys** (hardware devices) may be part of MFA
 
@@ -1302,52 +1302,282 @@ validation and remediation
 
 
 ## Chapter 20
+### Topics
+>- Use Cases of Automation and Scripting
+>- Benefits
+>- Other Considerations
 
+### Use Cases of Automation and Scripting
+> **Automation and scripting are vital** in cybersecurity. 
 
+> Handle repetitive tasks efficiently and effectively
 
+> Support policy compliance by consistently applying rules and configurations
 
+> Examples
+>- User provisioning  
+>- Resource provisioning
+>- Policy enforcement
+>- Incident response
+>- API integrations
 
+### User provisioning 
+> involves setting up user accounts with appropriate permissions and roles.  
 
+> **Manual user provisioning** can be time-consuming and is prone to errors.
 
+> **Automation tools integrated with HR software** can automate user provisioning, ensuring the right access for employees at the right time.
 
+> **Deprovisioning** can also be automated
 
+### Resource provisioning 
+> automates the setup, modification, or removal of digital assets such as virtual machines, databases, and storage units.
 
+> **Automated resource provisioning** helps ensure uniformity, compliance, and time savings.
 
+> Avoids the errors associated with manual provisioning
 
+### Guard rails 
+> are automated safety measures or rules implemented within a system. 
 
+> Designed to restrict or control activities that could be harmful or noncompliant with security policies
 
+> Act as internal checkpoints or barriers guiding user behavior and system interactions  
 
+> Enforce compliance with data privacy regulations like HIPAA
 
+### security group
+> is a group of users who are categorized together based on security policies.
 
+> Access to system resources can be automatically updated or modified.  
 
+> **Security group automation** applies templates based on resource roles or functions instead of configuring firewall rules individually.
 
+> Using security groups helps maintain a consistent security posture
 
+### Ticket Creation and Escalation
+> Automation streamlines ticket creation and ticket escalation in incident response scenarios.
 
+> An automated system detects irregularities, such as unauthorized login attempts, and generates tickets or incident reports accordingly.
 
+> In case of escalation, such as multiple unauthorized login attempts, tickets are automatically forwarded to higher levels of expertise or authority.
 
+> Automation lets admins control permissions by enabling or disabling services and access based on specific conditions (e.g., regular work hours) or security incidents
 
+### Continuous Integration and Testing (CI/CT)
+> involves the automated integration of code changes contributed by multiple developers into a single repository.
 
+> Key processes  
+>- Code commitment
+>- Static analysis
+>- Automated build process
+>- Automated testing
+>- Deployment
 
+### Integrations and Application Programming Interfaces (APIs)
+> **Integrations and APIs** automate the linking of computing services and software applications to establish coherent systems.
 
+> **APIs** enable different software entities to seamlessly communicate with each other.
 
+> Automation is overall beneficial but requires ongoing maintenance and monitoring for errors
 
+### Benefits of Automation
+> Efficiency
+>- Accelerates task execution, freeing human resources for other work
 
+> Workforce multiplier
+>- Enhances team productivity
 
+> Employee retention
+>- Improves job satisfaction and retention rates by removing tedious manual tasks
 
+> Reaction time
+>- Facilitates quick response to security incidents or operational events
 
+> Baseline enforcement
+>- Ensures consistent application of predefined security settings  
 
+> Standardized infrastructure configurations
+>- Maintains uniformity in system setups, reducing misconfigurations
 
+> Secure scaling
+>- Helps organizations securely expand their digital infrastructures
 
+### Other Considerations About Automation
 
+> Complexity
+>- Automation often requires specialized skills for design, implementation, and maintenance. 
 
+> Cost
+>- Automation involves initial investments in software, hardware, and human resources.
 
+> Single points of failure
+>- Systems without redundancies and fail-safes can become single points of failure. 
 
+> Ongoing supportability
+>- is needed for the effective, long-term operation of automated systems.
 
+> Technical debt may accrue.
+> That’s the long-term cost of using outdated systems, shortcuts, and temporary fixes to implement an automation rollout.
 
+### Important/homework
+> API's/restful API's
+> SOAR ( Security Orchestration, Automation, and Response )
 
+## chapter 21
+### Topics
+>- Process
+>- Training
+>- Testing
+>- Root Cause Analysis
+>- Threat Hunting
+>- Digital Forensics
 
+Incident Response Process
 
+>- Preparation
+>- Detection and Analysis
+>- Containment, Eradication, and Recovery
+>- Post-Incident Activity
 
+### Preparation
+> creates the plan for responding to and recovering from security incidents. 
+>- Designating a plan owner  
+>- Tech preparation
+>- Training programs
+
+###Detection and analysis
+> are accomplished with a mix of automated monitoring and human expertise.
+
+> Early detection is best. An early indicator of compromise (IoC) might be unusual network traffic or multiple failed logins. 
+
+> Analyze the IoC to understand the nature and scope of the threat
+
+### Containment, Eradication, and Recovery
+> Containment involves isolating the threat from the rest of the network. 
+>- Short-term or long-term
+
+> Eradication involves completely removing the threat.
+>- Ensure affected systems are backed up, then reimage  
+>- Apply patches and change passwords
+
+> Recovery involves choosing a restoration point and validating the system.
+>- Increase monitoring for 30+ days following incident
+
+### Post-incident activity 
+> is the “lessons learned” phase of incident response. 
+>- Meet within two weeks.
+>- Complete documentation about the incident.
+>- Discuss the response process.
+>- Change the response process if needed.
+ 
+### Training 
+> equips teams with the knowledge and protocols for effectively managing security incidents.
+
+> Role-based training for individuals and departments 
+
+> Tabletop exercises and simulations for practice responding
+
+### Testing 
+> is the rigorous examination of incident response procedures, plans, and capabilities.
+
+> Ensures effectiveness of cybersecurity incident response
+
+> Identifies gaps in responding; serves as a feedback loop for refinement of response strategies
+
+### Tabletop exercises 
+> simulate hypothetical situations that mirror real-world threats.  
+
+> **Each participant plays a role** corresponding to their actual emergency responsibilities.
+
+> **Time pressure** helps simulate the urgency of real incidents.
+
+> **Decision points** pause the action for strategic discussions about how to proceed. 
+
+> **Detailed records** are kept of every action, decision, and discussion point.
+
+### Simulation exercises 
+> build upon tabletop exercises with simulated tech environments such as sandboxed or isolated replicas of networks.
+
+> Tips for conducting a simulation
+>- Define key **performance indicators (KPIs)** to evaluate response effectiveness.  
+>- Introduce unexpected elements (e.g., power outages) to test the team's adaptability.
+>- Include a post-exercise discussion to identify gaps and discuss improvements.
+
+### Root cause analysis 
+> is critical for identifying the  reasons underlying security incidents.
+>- Data collection
+>- Timeline analysis
+>- Hypothesis development
+>- Hypothesis confirmation or rejection
+
+### Threat hunting 
+> is a proactive search through networks and data sets to detect and isolate advanced threats.
+
+> Targets threats that evade traditional reactive security measures
+
+> Involves setting a specific type of threat, such as lateral moves or data exfiltration
+
+> Discoveries may lead to threat remediation and updated security measures.
+
+### Digital forensics 
+> is a multidisciplinary approach to collecting, analyzing, and preserving data.
+
+> Involves the electronic data relevant to investigations or legal proceedings
+
+> Combines technical expertise with legal frameworks and ethical considerations
+
+### Legal Hold and Chain of Custody
+
+> Legal hold
+>- is the process of preserving electronic evidence related to a legal case or investigation. It prevents the alteration or deletion of specific data.
+
+> A chain of custody
+>- documents the path that evidence takes from acquisition to disposal.
+>- Helps ensure integrity and admissibility of evidence in legal proceedings
+
+### Acquisition 
+> is the systematic collection of digital evidence meant to maintain its authenticity.  
+
+> Follows the order of volatility; captures the most volatile data first (CPU cache and registers)
+
+> Uses special tools to capture RAM
+
+> Creates a bit-by-bit image of the hard drive
+
+> Captures network traffic and logs
+
+> Looks for suspicious artifacts (residual data) such as changes in system settings
+
+### Reporting 
+> is the documenting of activities and findings throughout the forensic process.
+
+> Serves as a record for internal review and may become critical evidence in legal proceedings
+> Elements of a well-structured report
+>- Timeline of events 
+>- Tools used
+>- Evidence found
+>- Steps taken
+
+### Preservation 
+> involves safeguarding evidence from identification to the end of its lifecycle.
+
+> Secure, climate-controlled environment
+
+> Tamper-evident storage
+
+### E-discovery 
+> involves identifying, collecting, and producing electronically stored information in response to a legal request.
+
+> Subject to specific rules and protocols
+
+> Uses specialized software for searching, identifying, and collecting electronic information
+
+> Ensures that collected information is relevant and not privileged before production
+
+### Important/homework
+
+## chapter 22
 
 
 
