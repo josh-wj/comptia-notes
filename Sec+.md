@@ -1170,6 +1170,9 @@ validation and remediation
 
 > Alert tuning is important to avoid excessive false positives
 
+### Important/homework
+
+
 ## Chapter 19
 ### Topics
 >- Provisioning/De-provisioning User Accounts 
@@ -1258,7 +1261,256 @@ validation and remediation
 > Attribute-based access control (ABAC)
 >- is dynamic and uses context. It can combine various user, group, and resource attributes to determine whether access should be granted.
 
-> Least privilege means the user only has the access required for their job.
+> Least privilege
+>- means the user only has the access required for their job.
+
+### Multifactor Authentication (MFA) 
+> is the process of authenticating a user by validating two or more claims from different categories of factors.
+
+> Two-Factor Authentication (2FA)
+>- A subset of MFA in which two factors are required to authenticate
+
+> Factor categories
+>- Something you know
+>- Something you have
+>- Something you are
+
+> **Biometrics** (distinctive body measurements) and **security keys** (hardware devices) may be part of MFA
+
+### Password concepts 
+> are guidelines and practices for ensuring strong, secure passwords.
+
+> Passwords serve as the primary barrier to protect sensitive information and access controls.
+
+> Issues to consider when setting password requirements
+>- Password length
+>- Password complexity
+>- Password reuse
+>- Password expiration
+>- Password age
+
+### Privileged Access Management (PAM) Tools
+> centrally manage access to privileged accounts based on the principle of least privilege.
+
+> **Just-in-time (JIT) permissions** give access for a limited period.
+
+> **Ephemeral credentials** are generated for specific sessions or tasks and invalidated shortly after completion. They expire more quickly than JIT permissions. 
+
+> **Password vaulting** means using a centralized, encrypted repository to store various access credentials
+
+### Important/homework
+
+
+## Chapter 20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
