@@ -1992,6 +1992,8 @@ Risk analysis:
 > **Mean time between failures (MTBF):** Expected average time between failures for a system or component
 
 ### Important/homework
+>- RPO/RTO
+>- 
 
 ## Chapter 25
 ### Topics
