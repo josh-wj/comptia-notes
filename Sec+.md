@@ -2037,19 +2037,77 @@ Risk analysis:
 
 > Essential when evaluating a vendor’s risk
 
-### 
+### Independent assessment: 
+> Evaluation by a third party not directly involved in a vendor’s business operations
 
+> Provides an unbiased view of the vendor’s compliance and risk management status
 
+> Examples
+>- SOC 2 reports
+>- ISO certifications
+>- Results of third-party penetration tests
 
+### Supply chain analysis: 
+> Thoroughly evaluating every element and process in a vendor’s supply chain
 
+> Weak links can expose the organization to risks
 
+> Tools and techniques
+>- Supplier audits
+>- SWOT analysis
+>- Data analytics
+>- Machine learning predictions
 
+### Vendor selection: 
+> Evaluating and choosing a third-party service or product provider that best aligns with an organization’s needs, goals, and risk tolerance
 
+> Due diligence: A comprehensive appraisal of a vendor’s business practices, financial stability, reputation, and compliance with relevant laws and regulations
 
+> Conflict of interest: A vendor's competing professional or personal interests could interfere with their ability to act in the best interests of the organization
 
+### Agreement Types
+> **Service-level agreement (SLA):** Defines the expected level of service from a service provider
 
+> **Memorandum of agreement (MOA):** Specifies a cooperative, generally non-legally binding relationship  
 
+> **Memorandum of understanding (MOU):** Less formal than an MOA, it outlines mutual roles and responsibilities in a project or partnership
 
+> **Master service agreement (MSA):** Parties agree to most of the terms that will govern future projects
+
+> **Work order/statement of work (WO/SOW):** Describes work activities, deliverables, and timeline
+
+> **Non-disclosure agreement (NDA):** Legally binding contract establishing a confidential relationship; involves sensitive information
+
+> **Business partners agreement (BPA):** Outlines terms and conditions of a partnership
+
+### Vendor monitoring: 
+> Continuous oversight and evaluation of vendors to ensure they meet or exceed contractual obligations  
+
+> Covers various areas such as reliability, data protection, and ethical considerations (e.g., labor practices)
+
+> Periodic reviews assess vendors' capabilities in response to evolving regulations and emerging threats
+
+### Questionnaires
+> **Vendor questionnaires:** Forms used to gather nuanced information about a vendor's operational resilience, data handling practices, and corporate culture
+
+> Probe topics such as:
+>- Data encryption
+>- Multifactor authentication
+>- Incident response
+
+### Rules of engagement: 
+> Agreed-upon guidelines dictating how activities and interactions should occur between an organization and a vendor
+
+> Ensure clear expectations and responsibilities  
+
+> Procedures for:
+>- Security vulnerability reporting
+>- Escalating issues
+>- Changing the service provided  
+
+### important/Homework
+
+## Chapter 26
 
 
 
