@@ -1859,7 +1859,7 @@ Incident Response Process
 > **Decentralized governance** distributes decision-making authority, fostering innovation and adaptability. May lead to inconsistencies and gaps in security.
 
 ### Roles and Responsibilities for Systems and Data
-> **Owners** are responsible for asset classification, policy formulation, risk assessment, compliance oversight, budget allocation, and incident response.
+> **Owners** are <ins>responsible for asset classification</ins>, policy formulation, risk assessment, compliance oversight, budget allocation, and incident response.
 
 > **Controllers** define data processing objectives, ensure legal compliance, maintain data quality, oversee security measures, facilitate data subject rights, and maintain accountability and recordkeeping.
 
@@ -1868,6 +1868,7 @@ Incident Response Process
 > **Custodians/stewards** implement and maintain security measures, ensure data quality, assist in compliance efforts, manage data storage and backups, and provide evidence for audits.
 
 ### Important/Homework
+>- 
 
 ## Chapter 24
 ### Topics
@@ -1994,13 +1995,49 @@ Risk analysis:
 
 ## Chapter 25
 ### Topics
+>- Vendor Assessment
+>- Vendor Selection
+>- Agreement Types
+>- Vendor Monitoring
+>- Questionnaires
+>- Rules of Engagement
 
+### Vendor assessment: 
+> Evaluating a vendor to ensure they meet organizational requirements before engaging in a business relationship
 
+> Contracts can help protect the organization. 
+>- **Service level agreement (SLA):** Defines each party’s responsibilities, including vendor’s protocol in case of service failure
+>- **Business partners agreement (BPA):** Defines each party's responsibilities, the profit arrangement, and exit strategies
 
+### Penetration testing: 
+> Simulating cyberattacks to identify vulnerabilities
 
+> Can be used to test a vendor’s security   
+>- Unknown environment tests
+>- Known environment tests
+>- Partially known environment tests
 
+### Right-to-audit clause: 
+> Grants one party the authority to conduct audits on another to ensure compliance with specific criteria
 
+> Fosters transparency and accountability
 
+> Scope and types of audits permitted should be clearly defined  
+
+> May be invoked in case of suspected non-compliance or following a security incident involving the vendor
+
+### Evidence of internal audits: 
+> Documentation and findings of audits conducted within the vendor’s organization
+
+> Evidence may include audit reports, corrective action plans, and compliance certificates
+
+> Evaluates compliance with legal requirements and internal policies
+
+> Focus could be finances, security, or operations
+
+> Essential when evaluating a vendor’s risk
+
+### 
 
 
 
