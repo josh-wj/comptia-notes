@@ -1756,36 +1756,244 @@ Incident Response Process
 
 > More relaxed than policies or standards, allowing for flexibility in implementation
 
+### Policies 
+> are formal, high-level statements or plans that outline an organization’s general beliefs, goals, objectives, and acceptable procedures.
 
+> Essential for setting the organization’s approaches to various issues
 
+> Govern various aspects of business, including employee behavior and emergency procedures
 
+### Types of Policies
+> **Acceptable use policy (AUP):** Defines rules for the use of technology infrastructure
+>- May conflict with a BYOD policy
 
+> **Information security policy:** Provides guidelines and procedures for protecting data and technology assets 
+>- Examples: Password policy, software update policy
 
+> **Business continuity policy:** Aims to ensure that essential operations continue despite a disruption
+>- Examples: Daily remote backup policy, crisis communications policy
 
+> **Disaster recovery policy:** Focuses on restoring IT infrastructure and operations post-crisis
+>- Example: Data recovery policy
 
+> **Incident response policy:** Outlines procedures to follow during cybersecurity incidents
+>- Example: Quarantine policy
 
+> **Software development lifecycle (SDLC) policy:** Governs the software development process, incorporating security and quality at every phase
+> Examples: Coding policy, software retirement policy
 
+> **Change management policy:** Guides how changes to IT systems and processes are proposed, reviewed, and implemented
+>- Example: Requiring board approval for an IT system change
 
+### Standards 
+> provide specific, detailed instructions for implementing security measures.
 
+> Help ensure that practices align with policies  
 
+> Promote consistency and uniformity in security implementation
 
+### Types of Standards
 
+> **Password standards** define rules for creating, managing, and storing passwords.
 
+> **Access control standards:** determine who has access to specific resources within the organization's network and systems.
+>- Attribute-based access control (ABAC)
+>- Role-based access control (RBAC)
+>- Discretionary access control (DAC)
+>- Mandatory access control (MAC)
 
+> **Physical security standards** safeguard tangible assets like buildings, hardware, and personnel.
 
+> **Encryption standards** govern how data should be encrypted and decrypted within the organization.
 
+### Procedures 
+> implement policies and standards through specific, detailed instructions.
 
+> **Change management procedures** help transition individuals, teams, and the organization to a desired state.
+>- Proposal, planning, testing, implementation, and review
 
+> **Onboarding and offboarding procedures** help integrate users or remove them from identity and access management systems.
+>- Examples: Background checks, user training, adding or removing user permissions
 
+> **Playbooks** are step-by-step guides to approaching various security scenarios. They aim to minimize the impacts of emergency incidents. 
+> Typical sections
+>- Incident identification
+>- Assessment
+>- Response strategy
+>- Recovery and restoration
+>- Lessons learned
 
+### External considerations 
+> are factors outside an organization that influence its security governance.
 
+> **Regulatory:** Industry-specific rules dictating various aspects of business operations (e.g., HIPAA)
 
+> **Legal:** Broader than regulatory; include a range of obligations and potential liabilities such as consumer data privacy laws and vendor contracts
 
+> **Industry:** Guidelines, best practices, or requirements within an industry (such as following the PCI DSS)
 
+> **Local/Regional:** Rules, regulations, and cultural norms that only apply to a certain geographic area
 
+> **National:** Laws, regulations, and standards applicable within a country
 
+> **Global:** Laws, treaties, and standards that apply to organizations operating in multiple countries
 
+### Monitoring and Revision
+> **Continuous monitoring** involves regular log reviews, audits, and performance metric analysis. 
 
+> **Revision** is the implementation of change in response to monitoring.
+
+> **Security Information and Event Management (SIEM) systems** help aggregate and analyze data for monitoring.
+
+> Well-defined processes for monitoring and revision help organizations adapt to new conditions. 
+
+### Types of Governance Structures
+> **Board:** Sets strategic direction, approves policies, oversees risk management, ensures legal compliance
+
+> **Committee:** Provides detailed oversight, advises on specific issues, monitors and audits, facilitates stakeholder communication
+
+> **Government entities:** Set standards and regulations, enforce legal compliance, collaborate with private sector; subject to oversight committees
+
+> **Centralized governance** concentrates decision-making authority, allows for uniform implementation. May lack responsiveness and can create a single point of failure.
+
+> **Decentralized governance** distributes decision-making authority, fostering innovation and adaptability. May lead to inconsistencies and gaps in security.
+
+### Roles and Responsibilities for Systems and Data
+> **Owners** are responsible for asset classification, policy formulation, risk assessment, compliance oversight, budget allocation, and incident response.
+
+> **Controllers** define data processing objectives, ensure legal compliance, maintain data quality, oversee security measures, facilitate data subject rights, and maintain accountability and recordkeeping.
+
+> **Processors** handle data according to controller directives, implement security measures, ensure data accuracy, comply with legal and regulatory requirements, provide reporting and documentation, and respond to security incidents.
+
+> **Custodians/stewards** implement and maintain security measures, ensure data quality, assist in compliance efforts, manage data storage and backups, and provide evidence for audits.
+
+### Important/Homework
+
+## Chapter 24
+### Topics
+>- Risk Identification
+>- Risk Assessment
+>- Risk Analysis
+>- Risk Register
+>- Risk Tolerance
+>- Risk Appetite
+>- Risk Management Strategies
+>- Risk Reporting
+>- Business Impact Analysis
+
+### Risk identification: 
+> Systematically recognizing, documenting, and understanding potential threats, vulnerabilities, and hazards that could impact an organization's assets, operations, or objectives
+>- Cybersecurity threats
+>- Natural disasters
+>- Regulatory risks
+>- Supply chain risks
+>- Human errors
+
+### Risk assessment: 
+> Evaluating identified risks to determine their potential likelihood and impact
+>- Ad hoc
+>- Recurring
+>- One-time
+>- Continuous
+
+Risk analysis: 
+> Delving deep into each identified risk, examining specific details and characteristics
+>- Identify assets
+>- Identify vulnerabilities
+>- Identify threats and threat likelihood
+>- Assess potential impact
+
+> A **risk register** is useful for tracking issues and remedies.
+
+### Qualitative Risk Analysis vs Quantitative Risk Analysis
+> **Qualitative**  
+> Assigns numeric values based on the probability and impact of risks, without assigning monetary values
+> Uses ranges to represent probability and impact, such as 1 to 10 or 1 to 100
+
+> **Quantitative**  
+> Assigns exact monetary values to risks and losses
+> Calculates expected yearly loss in dollars for specific risks
+
+### Quantitative Risk Calculations
+> Three key values used in quantitative risk calculations: 
+
+> **Single loss expectancy (SLE):** The loss of value in dollars based on a single incident of a given type
+
+> **Annualized rate of occurrence (ARO):** The number of times per year that the type of incident occurs
+
+> **Annualized loss expectancy (ALE):** Total loss in dollars per year from a type of incident
+
+> SLE x ARO = ALE
+
+### Exposure factor 
+> is the percentage of loss that an asset would experience if a threat materialized. It helps calculate SLE (single loss expectancy). 
+
+> SLE = Asset value x EF
+
+### Probability vs Likelihood
+> The terms are similar, but probability uses numbers.  
+
+> **Probability** quantifies the likelihood of a risk occurring. It’s often expressed as a percentage, and it can be used in calculations.  
+
+> **Likelihood** qualitatively describes the chance of an event occurring, often with a term like “likely” or “highly unlikely.”  
+
+### Risk register: 
+> Centralized repository for recording identified risks, their characteristics, and management plans. Each risk receives a risk ID for easy tracking. 
+
+> **Key risk indicators (KRIs):** Metrics for measuring the potential impact and likelihood of identified risks
+
+> **Risk owners:** Individuals or departments responsible for managing specific risks
+
+> **Risk threshold:** Level of risk that an organization is willing to accept before taking action
+ 
+### Risk tolerance: 
+> The amount of risk an organization is willing to accept as it pursues objectives
+
+> Shapes cybersecurity investment 
+
+> **Low risk tolerance** leads to heavy investment in multilayered security  
+
+> **High risk tolerance** prioritizes growth over stringent security protocols
+
+### Risk appetite: 
+> Level of risk an organization is willing to accept to pursue its objectives
+
+> **Expansionary:** Willing to accept higher risk in exchange for rapid growth  
+
+> **Conservative:** Prefers lower levels of risk, prioritizing stability and sustainable growth 
+
+> **Neutral:** Balanced approach; accept risk, but not at the expense of stability
+
+### Risk management strategies: 
+> Systematic approaches to managing and mitigating risks
+
+> **Accept** some or all consequences of the risk. 
+> **Mitigate** the risk. 
+> **Transfer** the risk to a third party.
+> **Avoid** the risk.
+
+### Risk reporting: 
+> Documenting and sharing with stakeholders an organization’s risk assessments, analysis findings, and risk management strategies
+>- Executive summary
+>- Detailed findings
+>- Recommendations
+>- Action plan
+
+### Business Impact Analysis
+> **Business impact analysis (BIA):** Determines potential impacts of interrupting critical processes
+
+> **Recovery time objective (RTO):** Time by which a process should be restored to avoid unacceptable consequences
+
+> **Recovery point objective (RPO):** Maximum amount of data that can be lost due to a disruption
+
+> **Mean time to repair (MTTR):** Average time required to repair a failed device or system
+
+> **Mean time between failures (MTBF):** Expected average time between failures for a system or component
+
+### Important/homework
+
+## Chapter 25
+### Topics
 
 
 
