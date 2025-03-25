@@ -1535,6 +1535,7 @@ Incident Response Process
 > A chain of custody
 >- documents the path that evidence takes from acquisition to disposal.
 >- Helps ensure integrity and admissibility of evidence in legal proceedings
+>- know first 3 parts 
 
 ### Acquisition 
 > is the systematic collection of digital evidence meant to maintain its authenticity.  
@@ -1576,6 +1577,8 @@ Incident Response Process
 > Ensures that collected information is relevant and not privileged before production
 
 ### Important/homework
+>- Lessons Learned
+
 
 ## chapter 22
 ### Topics
@@ -1630,6 +1633,9 @@ Incident Response Process
 > It’s important to parse, partition, and analyze all logs related to security incidents.
 
 > Critical process data logged about the user, application, and system can help responders understand the nature and extent of an attack.
+
+> Shimming ( attack focused on drivers )
+> Refactoring completly changes the code of the driver but the functions remain the same ( not nessasasarily an attaack )  
 
 ### Endpoint logs 
 > give detailed information about activities on individual devices connected to a network.
@@ -1729,9 +1735,26 @@ Incident Response Process
 > Wireshark is commonly used to capture and analyze packets.
 
 ### Important/homework
+>- vulns. scans
+
 
 ## Chapter 23
+### Topics
+>- Guidelines
+>- Policies
+>- Standards
+>- Procedures
+>- External Considerations
+>- Monitoring and Revision
+>- Types of Governance Structures
+>- Roles and Responsibilities for Systems and Data
 
+### Guidelines 
+> are general recommendations aimed at steering organizational behavior and decision making.
+
+> Provide directional advice; suggestions and best practices for various security-related activities
+
+> More relaxed than policies or standards, allowing for flexibility in implementation
 
 
 
