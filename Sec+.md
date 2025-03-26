@@ -115,9 +115,9 @@ Remember connectivity when desighning new systems with other departments
 > a network security device or software that acts as a barrier between a trusted internal network and untrusted external networks such as the Internet
 
    Types
->    - WAF ( Web application Firewall )
+>    - WAF ( Web Application Firewall )
 >    - NGFW ( Next Generaation Firewall)
->    - UTM ( more than a firewall but considered one )
+>    - UTM ( Unified Threat Managment ) ( more than a firewall but considered one )
 >    - Understand TLS inspection (seperate concept )
 
 ### VPN
