@@ -2128,7 +2128,7 @@ Risk analysis:
 > External compliance reports are often required within strict time frames. Late or inaccurate reports may result in fines, legal action, and other negative consequences.
 
 ### Compliance Reporting Examples
-> **FCPA compliance:** Shows measures taken to prevent corruption (e.g., due diligence programs and accounting controls)  
+> **FCPA compliance:** Shows measures taken to prevent corruption (e.g., due diligence programs and accounting controls)  ( Foreign Corrupt Practices Act )
 
 > **PCI DSS compliance:** Details how customer payment data is protected
 
@@ -2136,13 +2136,98 @@ Risk analysis:
 
 > **GDPR compliance:** Shows protocols for safeguarding personal data and privacy rights
 
-###
+### Consequences of Non-Compliance
+> **Fines:** Monetary penalties for non-compliance
+> **Sanctions:** Restrictions or limitations imposed on organizations until compliance is achieved
+> **Reputational damage:** Negative impact on an organization's public image and credibility
+> **Loss of license:** One of the most severe consequences; the organization might need to shut down
+> **Contractual impacts:** Contracts may be terminated and legal disputes may result from not complying with contractual obligations
 
+### Compliance monitoring: 
+> Ensuring adherence to regulatory guidelines and internal policies
 
+> Involves a range of activities such as due diligence, attestation, and acknowledgment
 
+> Uses internal and external monitoring mechanisms
 
+> Is streamlined by automation
 
+### Due Diligence/Care
 
+> **Due diligence:** Gathering information and assessing risks before making decisions
+>- Includes comprehensive reviews of systems, processes, and policies to identify vulnerabilities
+
+> **Due care:** Maintaining established systems or processes 
+>- Applying information gathered during due diligence
+>- Updating security protocols
+>- Conducting regular audits
+
+### Attestation and Acknowledgment
+> Attestation: Formal declaration or confirmation that specific criteria, processes, or systems meet the security standards
+>- Provides assurance that data is being handled securely
+
+> Acknowledgment: Formally accepting or recognizing a policy
+>- Compliance certificates and signed agreements are legally-binding acknowledgments that an organization will adhere to certain security protocols or standards.
+
+### Automation in Compliance Monitoring
+> Software can automate various tasks that help ensure compliance monitoring.
+
+> Examples:
+>- Configuration management tools
+>- Automated vulnerability scanners
+>- SIEM systems
+
+### Privacy: 
+> An ethical obligation and a legal mandate
+
+> Involves safeguarding data against unauthorized access and ensuring data is used properly
+
+> Legal frameworks govern cybersecurity privacy at various jurisdictional levels
+
+### Legal implications: 
+> An organization's responsibilities, liabilities, and potential penalties related to handling personal data. Vary by jurisdiction, data type, and data use.
+
+> Local and regional examples
+>- CCPA (California)
+>- SHIELD Act (New York) 
+
+> GDPR (European Union)
+>- National examples
+>- COPPA (USA)
+>- PIPEDA (Canada)
+
+### Data Roles
+> **Data subject:** An individual whose personal data is being processed.
+
+> **Controller:** Decides how and why data will be processed
+
+> **Processor:** Processes personal data on behalf of the controller, complying with security measures 
+
+> **Ownership:** Refers to who has legal rights and control over data (e.g., the power to set access levels and give auditing permissions)
+
+### Data Inventory and Retention
+
+> Data inventory: A catalog or map that identifies where different types of data are stored
+>- Crucial for risk assessment and data protection strategies
+
+> Data retention policies: Dictate how long specific data types should be stored 
+
+### The right to be forgotten 
+> lets individuals request the deletion of their personal data. Security analysts follow up with data erasure in accordance with regulations. 
+
+> Locate and erase specified data from all systems, including backups.
+
+> Run verification checks to confirm complete removal of data.  
+
+> Keep detailed documentation of the entire process.
+
+### Important/Homework
+>- Seperation of duties
+>- due diligence/care
+>- data owner
+>- data retention
+>- right to be forgotten
+>- 
 
 
 
