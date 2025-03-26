@@ -2328,8 +2328,16 @@ Risk analysis:
 >- Involves direct interaction with the target system; may target intrusion detection systems
 >- Provides more detail about system vulnerabilities
 
+> 4 most common scan types ( according to comptia )
+>- Syn
+>- Ack
+>- TCP
+>- XMAS
+
 ### Important/Homework
->-
+>-audits
+>- red/bue/purple team
+>- passive/active recon/scanning0
 
 ## Chapter 28
 ### Topics
