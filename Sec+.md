@@ -2108,13 +2108,35 @@ Risk analysis:
 >- Changing the service provided  
 
 ### important/Homework
-
+>- rules of engagement
+>- 
 ## Chapter 26
+### Topics
+>- Compliance Reporting
+>- Consequences of Non-Compliance
+>- Compliance Monitoring
+>- Attestation and Acknowledgment
+>- Privacy
 
+### Compliance reporting 
+> provides insights to internal stakeholders and fulfills external obligations by creating detailed documents.
 
+> Documents adhere to industry-specific regulations and standards.
 
+> Internal stakeholders might be interested in metrics involving employee security training and thwarted attacks.  
 
+> External compliance reports are often required within strict time frames. Late or inaccurate reports may result in fines, legal action, and other negative consequences.
 
+### Compliance Reporting Examples
+> **FCPA compliance:** Shows measures taken to prevent corruption (e.g., due diligence programs and accounting controls)  
+
+> **PCI DSS compliance:** Details how customer payment data is protected
+
+> **HIPAA compliance:** Shows measures taken to protect patient health records
+
+> **GDPR compliance:** Shows protocols for safeguarding personal data and privacy rights
+
+###
 
 
 
