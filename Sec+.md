@@ -2332,12 +2332,93 @@ Risk analysis:
 >-
 
 ## Chapter 28
+### Topics
+>- Phishing
+>- Anomalous Behavior Recognition
+>- User Guidance and Training
+>- Reporting and Monitoring
+>- Development
+>- Execution
 
+### Phishing: 
+> Social engineering attack aimed at tricking individuals into sharing sensitive data
+> Often conducted via email, messaging apps, and websites
+> User education and awareness are vital to keeping systems secure
 
+### Signs of Phishing Attempts
+> Mismatched URLs 
+> Errors in grammar and spelling
+> Requests for sensitive information 
+> Unexpected attachments 
+> “Too good to be true” offers
 
+### Suspicious Message Protocol
+>- Isolate the threat 
+>- Analyze the content 
+>- Notify security team
+>- Make users aware 
+>- Update security measures 
 
+### Anomalous behavior recognition: 
+> Identifies actions or patterns deviating from established norms in a network or system
+> May indicate malicious threats or unintentional (but still risky) behaviors
+> Crucial for preemptive threat detection
 
+### Anomalous Behaviors
+> **Unexpected behaviors:** Deviations from established norms or baseline behaviors 
+>- Unusual login times
+>- High data transfer rates
+>- Multiple failed login attempts
 
+> **Risky behaviors:** Actions that expose an organization to vulnerabilities or threats; may be deliberate or have malicious intent
+
+> **Unintentional behaviors:** Actions that inadvertently jeopardize cybersecurity; usually involve lack of awareness  
+
+### User Guidance and Training
+> **User guidance:** Empowers employees with security knowledge and training to help protect the organization  
+
+> Policy documents 
+>- Acceptable use policy
+>- Information security policy
+>- Remote/hybrid work policies
+>- Incident response handbook
+
+> Training
+>- Password management
+>- Social engineering
+>- Insider threats  
+>- Operational security
+
+### Reporting and monitoring 
+> are both initial and recurring. 
+
+> **Initial reporting:** Documenting and communicating details of security incidents or vulnerabilities as the first response
+
+> **Initial monitoring:** Working to contain a threat with help of real-time log data  
+
+> **Recurring reporting:** Periodically reviewing and auditing to assess security measures
+
+> **Recurring monitoring:** Continuously scanning networks and systems for new vulnerabilities and threats  
+
+### Development
+> **Development phase:** Lay the groundwork for a security awareness program by defining its objectives, scope, and measurable goals.
+
+> Create a detailed project plan outlining a timeline, resources, and budget.
+
+> Identify key stakeholders and define their roles 
+
+> Create training materials and assessments. 
+
+### Execution
+> **Execution phase:** Put the security awareness program into action.
+
+> Use real-time monitoring to ensure the program is effective.
+
+> Make program adjustments as needed.
+
+> Periodically review the program to keep it relevant and effective.
+
+### Important/Homework
 
 
 
