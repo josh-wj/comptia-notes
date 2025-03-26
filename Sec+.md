@@ -2229,17 +2229,109 @@ Risk analysis:
 >- right to be forgotten
 >- 
 
+## Chapter 27
+### Topics
+>- Attestation
+>- Internal
+>- External
+>- Penetration Testing
 
+### Attestation: 
+> Formal act of affirming or certifying validity of a process, system, or data set
 
+> Adds trust and integrity to an organization’s cybersecurity posture
 
+> Confirms that specific security controls are in place and functioning as intended
 
+> Often takes the form of signed statements or digital certificates
 
+### Attestation Process
+>- Evaluation
+>- Documentation
+>- Approval
+>- Issuance
+>- Review and Update
 
+### Internal
+> Internal audits: Self-audits conducted internally by the organization to ensure alignment with external requirements and internal policies
+>- Proactive 
+>- Self-assessments are audits conducted by staff responsible for the assessed areas.  
+>- Internal compliance audits are overseen by internal committees. 
 
+### Compliance Audit
+> **Define scope:** Identify the applicable laws, regulations, and policies.  
 
+> **Gather data:** Collect evidence such as logs, configurations, and employee interviews.
 
+> **Analyze:** Evaluate data against the defined scope.
 
+> **Report:** Document findings, including non-compliance, and recommend corrective actions.
 
+### Internal Audit Committee
+> Audit committee: Oversight body comprised of senior management and subject matter experts
+
+> Responsibilities
+>- Audit planning
+>- Review
+>- Oversight
+>- Accountability
+
+### External
+> **External audits:** Evaluations conducted by entities outside the organization
+
+> **Regulatory audit:** Mandated by law or industry standards
+
+> **Independent third-party audit:** Conducted by an unbiased organization
+
+> **Examination:** Verifies specific claims or compliance assertions
+
+> **Assessment:** Evaluates the overall security posture 
+
+### Penetration testing: 
+> Diagnostic tool to assess cybersecurity by simulating cyberattacks
+
+> Proactively identifies vulnerabilities and evaluates the effectiveness of defensive mechanisms
+
+> Helps organizations meet compliance requirements
+
+### Penetration Testing Lifecycle
+>- Planning
+>- Reconnaissance
+>- Scanning
+>- Gaining Access
+>- Maintaining Access
+>- Analysis and Reporting
+
+### Types of Penetration Tests
+> **Physical penetration testing:** Targets physical barriers such as door locks and surveillance systems
+
+> **Offensive penetration testing (Red teaming):** Mimics the actions of threat actors to identify vulnerabilities
+
+> **Defensive penetration testing (Blue teaming):** Focuses on managing simulated attacks to evaluate defensive strategies
+
+> **Integrated penetration testing (Purple teaming):** Combines offensive and defensive methodologies
+
+> **Known environment penetration testing (White box testing):** Testers have comprehensive information about the system's architecture
+
+> **Partially known environment penetration testing (Gray box testing):** Testers have a subset of system information
+
+> **Unknown environment penetration testing (Black box testing):** Testers have no knowledge of the system's architecture
+
+### Reconnaissance: 
+> Collecting preliminary data or intelligence about the target
+
+> Passive reconnaissance
+>- Low-profile approach to gathering information
+>- Identifies potential vulnerabilities or areas of interest without alerting the target
+
+> Active reconnaissance
+>- Involves direct interaction with the target system; may target intrusion detection systems
+>- Provides more detail about system vulnerabilities
+
+### Important/Homework
+>-
+
+## Chapter 28
 
 
 
