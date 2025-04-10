@@ -117,7 +117,8 @@ Remember connectivity when desighning new systems with other departments
    Types
 >    - WAF ( Web Application Firewall )
 >    - NGFW ( Next Generaation Firewall)
->    - UTM ( Unified Threat Managment ) ( more than a firewall but considered one )
+>    - UTM ( Unified Threat Manager ) [  watches traffic flows across the 
+network ]  ( more than a firewall but considered one )
 >    - Understand TLS inspection (seperate concept )
 
 ### VPN
@@ -1122,8 +1123,10 @@ validation and remediation
 >- helps receivers verify the authenticity of emails from specific domains 
 
 > DMARC process
->- SPF check
->- DKIM check
+>- SPF ( Sender policy framework ) check
+>- ____List od all authorized mail servers for a specific domain
+>- DKIM ( Domain key identified mail ) check
+>- ____ provides a way to validate all digitally signed messages from a specific email server
 >- DMARC policy retrieval
 >- Policy enforcement
 >- Reporting
